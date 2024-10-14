@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("ENTER A NUMBER");
+    scanf("%d',&n");
+    for(int i=2;i<n;i++)
+    {
+        if(n%i==0)
+        {
+            printf("then the factors of the given number is %d",i);
+        }
+    }
+}
