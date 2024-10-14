@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main()
+{
+    int i,j;
+    for(i=100;i<=999;i++)
+    {
+        if(i%5==0)
+        continue;
+        else
+        printf("%d",i);
+    }
+    
+}
