@@ -1,0 +1,20 @@
+#include<stdio.h>
+void main()
+{
+     char c[20];
+     int i,j,l;
+    printf("enter the name");
+    gets(c);
+    l=strlen(c)-1;
+    for(i=0,j=l;i<j;i++,j--)
+    {
+
+        if(c[i]!=c[j])
+        {
+            printf("it is not palindrome");
+            break;
+        }
+        else
+        printf("it is a palindrome");
+    }
+}
