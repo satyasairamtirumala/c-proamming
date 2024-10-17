@@ -1,0 +1,55 @@
+#include<stdio.h>
+#include<string.h>
+void main()
+{
+    char bname[20];
+    char gname[20];
+    printf("enter the boy name");
+    gets(bname);
+    printf("enter the girl name");
+    gets(gname);
+    int a=strlen(bname);
+    int b=strlen(gname);
+    for(int i=0;i<a;i++)
+    {
+        for(int j=0;j<b;j++)
+        {
+            if(bname[i]==gname[i])
+            {
+                bname=='2';
+                gname=='2';
+            }
+        }
+    }
+    int a1=0;
+    for(int i=0;i<a1;i++)
+    {
+        if(bname!=2)
+          a1=a1+1;
+
+    }
+    int b1=0;
+    for(int i=0;i<b1;i++)
+    {
+
+        if(gname!=2)
+             b1=b1+1;
+
+    }
+    int total=a1+b1;
+    switch(total)
+    {
+
+        case 1:printf("merage");
+               break;
+        case 2 :printf("affection");
+                break;
+        case 3: printf("love");
+                break;
+        case 4: printf("crush");
+                break;
+        case 5: printf("breakup");
+                break;
+        default :printf("not valid names");
+    }
+}
